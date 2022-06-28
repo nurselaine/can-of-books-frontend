@@ -10,7 +10,7 @@ class Profile extends Component {
     return (
       <>
       <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Img variant="top" src="./images/about-us-elaine.jpeg" />
   <Card.Body>
     <Card.Title>Elaine Huynh</Card.Title>
     <Card.Text>
