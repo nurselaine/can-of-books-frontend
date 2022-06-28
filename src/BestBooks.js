@@ -12,10 +12,11 @@ class BestBooks extends React.Component {
   }
 
   /* TODO: Make a GET request to your API to fetch all the books from the database  */
-  async componentDidMount() {
+  async componentDidMount(){
     try {
       let url = `${process.env.REACT_APP_SERVER}/books`;
       let bookData = await axios.get(url);
+      console.log('hello');
       if (bookData.data) {
         this.setState({
           books: bookData.data
