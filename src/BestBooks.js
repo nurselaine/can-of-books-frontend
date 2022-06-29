@@ -1,13 +1,16 @@
 import React from 'react';
 import axios from 'axios';
 import Carousel from 'react-bootstrap/Carousel'
+import Button from 'react-bootstrap/Button'
+import BookFormModal from './BookFormModal';
 
 
 class BestBooks extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      books: []
+      books: [],
+      show: false
     }
   }
 
@@ -25,6 +28,18 @@ class BestBooks extends React.Component {
     } catch (err) {
       console.log(err, 'An error occured');
     }
+  }
+
+  handleShow = (e) => {
+    this.setState({
+      show: true
+    })
+  }
+
+  handleClose = (e) => {
+    this.setState({
+      show: false
+    })
   }
 
   render() {
@@ -58,6 +73,7 @@ class BestBooks extends React.Component {
         ) : (
           <h3>No Books Found :(</h3>
         )}
+        <BookFormModal show={this.state.show} handleShow={this.handleShow} handleClose={this.handleClose}/>
       </>
     )
   }
