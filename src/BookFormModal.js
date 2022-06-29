@@ -22,7 +22,7 @@ class BookFormModal extends React.Component {
   }
 
 
-  handleSubmit = (e) => {
+  handleSubmit = async (e) => {
     e.preventDefault();
     console.log(e.target.value, 'title')
 
@@ -31,14 +31,18 @@ class BookFormModal extends React.Component {
       description: e.target.description.value,
       genre: e.target.genre.value
     }
-    this.postBooks(bookToAdd);
-    this.props.handleNewBook(bookToAdd);
+    let createdBook = await this.postBooks(bookToAdd);
+    console.log(createdBook);
   }
 
   postBooks = async (newBookObj) => {
     try {
       let url = `${process.env.REACT_APP_SERVER}/books`;
       let createdBook = await axios.post(url, newBookObj);
+      if (createdBook.data) {
+        this.props.handleNewBook(createdBook.data);
+      }
+      // update state that no data response from backend
     } catch (error) {
       console.log('oh snap! Something went wrong', error.response.data);
     }

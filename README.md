@@ -46,24 +46,24 @@ Start time: 5pm
 Finish time: 6pm
 
 Actual time needed to complete: 1hr
-Name of feature: ________________________________
+Name of feature: Allow user to add a book to database
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1hr
 
-Start time: _____
+Start time: 3pm
 
-Finish time: _____
+Finish time: 4pm
 
-Actual time needed to complete: _____
-Name of feature: ________________________________
+Actual time needed to complete: 1hr
+Name of feature: Allow user to delete book from collection
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1hr
 
-Start time: _____
+Start time: 4pm
 
-Finish time: _____
+Finish time: 7pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 3hr
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
