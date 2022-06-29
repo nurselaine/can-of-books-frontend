@@ -1,6 +1,6 @@
 # Project Name
 
-**Author**: Elaine Huyn & Stephen Martinez
+**Author**: Elaine Huynh & Stephen Martinez
 **Version**: 1.1.0 
 
 ## Overview
