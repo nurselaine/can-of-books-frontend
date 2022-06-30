@@ -1,10 +1,11 @@
 # Project Name
 
 **Author**: Elaine Huynh & Stephen Martinez
-**Version**: 1.1.0 
+**Version**: 1.3.0 
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+Can of Book is build to practice using CRUD and RESTful API methods. Using these concepts we created an online library that allows users to create books, edit book entries, and delete books.
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
@@ -64,6 +65,15 @@ Start time: 4pm
 Finish time: 7pm
 
 Actual time needed to complete: 3hr
+Name of feature: Allow user to edit books in collection via Form
+
+Estimate of time needed to complete: 2hr
+
+Start time: 2pm
+
+Finish time: 
+
+Actual time needed to complete: 
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
